@@ -261,10 +261,9 @@ export default function OrkutPage({ initialTestimonials }: Props) {
               <div style={{ padding: '10px 12px', background: 'linear-gradient(135deg, #F8F0FF, #F0EAFF)', textAlign: 'center' }}>
                 <div style={{ fontSize: '28px', marginBottom: '6px' }}>🎂 🎉 🎈</div>
                 <div style={{ fontSize: '13px', fontWeight: 'bold', color: '#4B3BA8', marginBottom: '4px' }}>
-                  Feliz Aniversário, Ruth!
+                  Parabéns, Ru!!! 🎉
                 </div>
                 <div style={{ fontSize: '11px', color: '#666', lineHeight: '1.6' }}>
-                  Que este dia seja tão especial quanto você é para todos nós.<br/>
                   Deixe um depoimento para fazer o dia dela ainda mais inesquecível! 💜
                 </div>
                 <div style={{ marginTop: '8px', fontSize: '20px' }}>

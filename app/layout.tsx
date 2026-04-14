@@ -1,9 +1,8 @@
-
 import type { Metadata } from 'next'
 import './globals.css'
  
 export const metadata: Metadata = {
-  title: 'Perfil de Ruth - Orkut Birthday',
+  title: 'Perfil de Ruth - Orkut',
   description: 'Deixe um depoimento para Ruth! 🎂',
 }
  
