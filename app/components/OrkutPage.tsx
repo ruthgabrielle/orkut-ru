@@ -4,6 +4,7 @@ import { useState } from 'react'
 import type { Testimonial } from '@/lib/supabase'
 import TestimonialForm from './TestimonialForm'
 import TestimonialList from './TestimonialList'
+import Countdown from './Countdown'
 
 const FAKE_FRIENDS = [
   { name: 'Maria', color: '#C8A8F8' },
@@ -67,17 +68,17 @@ export default function OrkutPage({ initialTestimonials }: Props) {
                 <div className="profile-photo" style={{ imageRendering: 'pixelated' }}>
                   {/* SVG birthday cake icon as profile photo */}
                   <svg viewBox="0 0 80 80" width="80" height="80" style={{ display: 'block' }}>
-                    <rect width="80" height="80" fill="#9880E0"/>
-                    <rect x="20" y="42" width="40" height="22" rx="2" fill="#F8E8FF" stroke="#C0A8F0" strokeWidth="1"/>
-                    <rect x="25" y="48" width="30" height="10" rx="1" fill="#E8D8FF"/>
-                    <rect x="22" y="52" width="36" height="6" rx="1" fill="#D8C8FF" opacity="0.5"/>
-                    <rect x="15" y="56" width="50" height="10" rx="2" fill="#EDD8FF" stroke="#C0A8F0" strokeWidth="1"/>
-                    <rect x="17" y="60" width="46" height="4" rx="1" fill="#E0C8FF"/>
+                    <rect width="80" height="80" fill="#9880E0" />
+                    <rect x="20" y="42" width="40" height="22" rx="2" fill="#F8E8FF" stroke="#C0A8F0" strokeWidth="1" />
+                    <rect x="25" y="48" width="30" height="10" rx="1" fill="#E8D8FF" />
+                    <rect x="22" y="52" width="36" height="6" rx="1" fill="#D8C8FF" opacity="0.5" />
+                    <rect x="15" y="56" width="50" height="10" rx="2" fill="#EDD8FF" stroke="#C0A8F0" strokeWidth="1" />
+                    <rect x="17" y="60" width="46" height="4" rx="1" fill="#E0C8FF" />
                     {[28, 36, 44, 52].map((x, i) => (
                       <g key={i}>
-                        <rect x={x} y="38" width="3" height="6" fill="#FFD700"/>
-                        <ellipse cx={x+1.5} cy="37" rx="2" ry="3" fill="#FF9900" opacity="0.9"/>
-                        <ellipse cx={x+1.5} cy="36" rx="1" ry="1.5" fill="#FFFF00" opacity="0.8"/>
+                        <rect x={x} y="38" width="3" height="6" fill="#FFD700" />
+                        <ellipse cx={x + 1.5} cy="37" rx="2" ry="3" fill="#FF9900" opacity="0.9" />
+                        <ellipse cx={x + 1.5} cy="36" rx="1" ry="1.5" fill="#FFFF00" opacity="0.8" />
                       </g>
                     ))}
                     <text x="40" y="32" textAnchor="middle" fill="white" fontSize="10" fontFamily="Verdana" fontWeight="bold">Ruth</text>
@@ -90,6 +91,8 @@ export default function OrkutPage({ initialTestimonials }: Props) {
                   online agora
                 </div>
               </div>
+
+
 
               {/* Status */}
               <div className="status-bar">
@@ -133,8 +136,11 @@ export default function OrkutPage({ initialTestimonials }: Props) {
                 <div style={{ fontSize: '9px', color: '#666', marginTop: '1px' }}>confiável ★★★★★</div>
               </div>
 
+
+
               {/* Stats */}
               <div style={{ padding: '5px 8px', borderTop: '1px solid #E0DCF0', background: '#F8F4FF' }}>
+
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '10px' }}>
                   <div>
                     <div style={{ fontWeight: 'bold', color: '#6A5ACD', fontSize: '14px' }}>{testimonials.length}</div>
@@ -190,6 +196,8 @@ export default function OrkutPage({ initialTestimonials }: Props) {
 
           {/* ===== MAIN CONTENT ===== */}
           <div className="main-content">
+            {/* Countdown */}
+            <Countdown />
             {/* Tabs */}
             <div style={{
               display: 'flex',
@@ -197,6 +205,8 @@ export default function OrkutPage({ initialTestimonials }: Props) {
               marginBottom: '6px',
               borderBottom: '2px solid #6A5ACD',
             }}>
+
+
               {(['depoimentos', 'recados'] as const).map(tab => (
                 <button
                   key={tab}
@@ -231,6 +241,7 @@ export default function OrkutPage({ initialTestimonials }: Props) {
                 <TestimonialList testimonials={testimonials} />
               </div>
             )}
+
 
             {activeTab === 'recados' && (
               <div className="panel">
