@@ -233,7 +233,7 @@ export default function OrkutPage({ initialTestimonials }: Props) {
 
             {activeTab === 'depoimentos' && (
               <div className="panel">
-                <div className="section-header">💜 depoimentos de ruth</div>
+                <div className="section-header">depoimentos de ruth</div>
                 <div className="testimonial-count">
                   Você tem <strong>{testimonials.length}</strong> depoimento{testimonials.length !== 1 ? 's' : ''} 🎂
                 </div>
@@ -266,7 +266,7 @@ export default function OrkutPage({ initialTestimonials }: Props) {
 
             {/* Birthday message panel */}
             <div className="panel" style={{ marginTop: '6px' }}>
-              <div className="section-header">🎉 mensagem de aniversário</div>
+              <div className="section-header">mensagem de aniversário</div>
               <div style={{ padding: '10px 12px', background: 'linear-gradient(135deg, #F8F0FF, #F0EAFF)', textAlign: 'center' }}>
                 <div style={{ fontSize: '28px', marginBottom: '6px' }}>🎂 🎉 🎈</div>
                 <div style={{ fontSize: '13px', fontWeight: 'bold', color: '#4B3BA8', marginBottom: '4px' }}>
