@@ -258,9 +258,9 @@ export default function OrkutPage({ initialTestimonials }: Props) {
                     <div style={{ fontSize: '11px', color: '#333' }}>{s.msg}</div>
                   </div>
                 ))}
-                <div style={{ padding: '6px 8px', borderTop: '1px solid #E0DCF0' }}>
+                {/* <div style={{ padding: '6px 8px', borderTop: '1px solid #E0DCF0' }}>
                   <button className="btn-orkut">📝 Escrever recado</button>
-                </div>
+                </div> */}
               </div>
             )}
 
