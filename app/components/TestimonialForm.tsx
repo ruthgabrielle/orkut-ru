@@ -102,12 +102,11 @@ export default function TestimonialForm({ onSubmit }: Props) {
         </div>
       )}
       <div className="form-footer">
-        <span style={{ fontSize: '9px', color: '#999', marginRight: 'auto' }}>* campos obrigatórios</span>
         <button className="btn-orkut-gray" onClick={() => { setOpen(false); setError(''); }} disabled={loading}>
           Cancelar
         </button>
         <button className="btn-orkut" onClick={handleSubmit} disabled={loading}>
-          {loading ? 'Enviando...' : 'Enviar depoimento'}
+          {loading ? 'Enviando...' : 'Enviar'}
         </button>
       </div>
     </div>

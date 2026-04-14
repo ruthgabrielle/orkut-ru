@@ -45,8 +45,6 @@ export default function OrkutPage({ initialTestimonials }: Props) {
           <a href="#">início</a>
           <a href="#">amigos</a>
           <a href="#">comunidades</a>
-          <a href="#">recados</a>
-          <a href="#">vídeos</a>
           <span style={{ color: '#B0A8FF' }}>|</span>
           <a href="#">configurações</a>
           <a href="#">sair</a>
