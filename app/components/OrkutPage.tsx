@@ -196,8 +196,8 @@ export default function OrkutPage({ initialTestimonials }: Props) {
 
           {/* ===== MAIN CONTENT ===== */}
           <div className="main-content">
-            {/* Countdown */}
-            <Countdown />
+            {/* Countdown
+            <Countdown /> */}
             {/* Tabs */}
             <div style={{
               display: 'flex',
