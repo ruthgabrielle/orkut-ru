@@ -73,22 +73,22 @@ const RUTH_RESPONSES_2 = [
 ]
 
 const USER_RESPONSES = [
-  (n: string) => `kkkkkk ${n} para vc ta me deixando sem graça aqui!! :P`,
-  (n: string) => `aaaaa ${n} vc merece TUDO de melhor!! muita saude e felicidade!!`,
-  (n: string) => `${n} to serio(a) hein!! vc e incrivel!! :D :D`,
-  (n: string) => `kkkkk fica assim nao ${n}!! mas e verdade!! vc e especial dms (K)`,
-  (n: string) => `${n} nao chora senao eu choro tbm kkkk mas e verdade!! te amo mto!!`,
-  (n: string) => `hahaha ${n} vc e o maximo!! celebra mto hoje tá?? (F)(F)`,
-  (n: string) => `${n} to falando serio hein!! vc merece o mundo inteiro!! (L)`,
-  (n: string) => `kkkkkk ${n} olha o que vc me faz!! to aqui igual palhaço sorrindo`,
-  (n: string) => `NAO ${n} para!! agora eu que to chorando aqui kkkkk (K)(K)`,
-  (n: string) => `${n} vc e uma das pessoas mais especiais que eu ja conheci!! verdade!!`,
-  (n: string) => `hahaha ${n} fica feliz hoje tá?? vc merece DEMAIS!! :D :D :D`,
-  (n: string) => `${n} to com saudade agora por sua culpa kkkkkk (L) vdd!!`,
-  (n: string) => `kkkkk ${n} voce e insuportavel de tao perfeita sabia?? (K)`,
-  (n: string) => `${n} juro to com o coração quentinho aqui!! obg por existir!! 💜`,
-  (n: string) => `KKKKKK ${n} agora eu que fui me emocionar!! para com isso!! (L)(L)`,
-  (n: string) => `${n} vc ilumina qualquer lugar que entra!! isso nao e elogio e fato!! :D`,
+  (n: string) => `kkkkkk para vc ta me deixando sem graça aqui!! :P`,
+  (n: string) => `aaaaa vc merece TUDO de melhor!! muita saude e felicidade!!`,
+  (n: string) => `to serio(a) hein!! vc e incrivel!! :D :D`,
+  (n: string) => `kkkkk fica assim nao !! mas e verdade!! vc e especial dms (K)`,
+  (n: string) => `nao chora senao eu choro tbm kkkk mas e verdade!! te amo mto!!`,
+  (n: string) => `hahaha  vc e o maximo!! celebra mto hoje tá?? (F)(F)`,
+  (n: string) => `to falando serio hein!! vc merece o mundo inteiro!! (L)`,
+  (n: string) => `kkkkkk  olha o que vc me faz!! to aqui igual palhaço sorrindo`,
+  (n: string) => `NAO para!! agora eu que to chorando aqui kkkkk (K)(K)`,
+  (n: string) => ` vc e uma das pessoas mais especiais que eu ja conheci!! verdade!!`,
+  (n: string) => `hahaha  fica feliz hoje tá?? vc merece DEMAIS!! :D :D :D`,
+  (n: string) => ` to com saudade agora por sua culpa kkkkkk (L) vdd!!`,
+  (n: string) => `kkkkk  voce e insuportavel de tao perfeita sabia?? (K)`,
+  (n: string) => ` juro to com o coração quentinho aqui!! obg por existir!! 💜`,
+  (n: string) => `KKKKKK  agora eu que fui me emocionar!! para com isso!! (L)(L)`,
+  (n: string) => ` vc ilumina qualquer lugar que entra!! isso nao e elogio e fato!! :D`,
 ]
 
 const RUTH_RESPONSES_3 = [
