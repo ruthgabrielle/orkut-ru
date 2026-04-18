@@ -238,7 +238,7 @@ export default function OrkutPage({ initialTestimonials }: Props) {
                     </div>
                     <div style={{ fontSize: '11px', color: '#666', lineHeight: '1.6' }}>
                       Que este dia seja tão especial quanto você é para todos nós.<br />
-                      Clique em <strong>✨ diversão</strong> para quiz e prints de MSN! 💜
+                      Clique em <strong>✨ extras</strong> para quiz e prints de MSN! 💜
                     </div>
                     <div style={{ marginTop: '8px', fontSize: '20px' }}>
                       {['💜', '✨', '🌟', '💜', '🎁', '💜', '✨'].join(' ')}
