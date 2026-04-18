@@ -54,7 +54,7 @@ export default function TestimonialForm({ onSubmit }: Props) {
           ✏️ Escrever depoimento
         </button>
         <span style={{ marginLeft: '8px', fontSize: '10px', color: '#888' }}>
-          Deixe uma mensagem especial para Ruth!
+          Deixe uma mensagem especial p mimmm!
         </span>
       </div>
     )

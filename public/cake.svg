@@ -1,0 +1,17 @@
+  <svg viewBox="0 0 80 80" width="80" height="80" style={{ display: 'block' }}>
+                    <rect width="80" height="80" fill="#9880E0" />
+                    <rect x="20" y="42" width="40" height="22" rx="2" fill="#F8E8FF" stroke="#C0A8F0" strokeWidth="1" />
+                    <rect x="25" y="48" width="30" height="10" rx="1" fill="#E8D8FF" />
+                    <rect x="22" y="52" width="36" height="6" rx="1" fill="#D8C8FF" opacity="0.5" />
+                    <rect x="15" y="56" width="50" height="10" rx="2" fill="#EDD8FF" stroke="#C0A8F0" strokeWidth="1" />
+                    <rect x="17" y="60" width="46" height="4" rx="1" fill="#E0C8FF" />
+                    {[28, 36, 44, 52].map((x, i) => (
+                      <g key={i}>
+                        <rect x={x} y="38" width="3" height="6" fill="#FFD700" />
+                        <ellipse cx={x + 1.5} cy="37" rx="2" ry="3" fill="#FF9900" opacity="0.9" />
+                        <ellipse cx={x + 1.5} cy="36" rx="1" ry="1.5" fill="#FFFF00" opacity="0.8" />
+                      </g>
+                    ))}
+                    <text x="40" y="32" textAnchor="middle" fill="white" fontSize="10" fontFamily="Verdana" fontWeight="bold">Ruth</text>
+                    <text x="40" y="25" textAnchor="middle" fill="#FFD700" fontSize="14">♥</text>
+    </svg>

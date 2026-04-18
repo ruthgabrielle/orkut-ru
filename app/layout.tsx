@@ -3,7 +3,7 @@ import './globals.css'
  
 export const metadata: Metadata = {
   title: 'Perfil de Ruth - Orkut',
-  description: 'Deixe um depoimento para Ruth! 🎂',
+  description: 'Deixe um depoimento para deixar meu dia mais especial! 🎂',
 }
  
 export default function RootLayout({ children }: { children: React.ReactNode }) {
