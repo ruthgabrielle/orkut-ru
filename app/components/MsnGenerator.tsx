@@ -40,23 +40,36 @@ const MSN_STATUSES = [
   '🎂 Comemorando!',
 ]
 
-// Templates de resposta da Ruth — intercalam com a mensagem do usuário
 const RUTH_RESPONSES_1 = [
-  (n: string) => `AAAAA ${n}!! meu deuuus que amorrrr!!!!! (L)(L)(L)`,
+  (n: string) => `AAAAA ${n}!! meu deuuus que saudade!!!!! (L)(L)(L)`,
   (n: string) => `aiiii ${n}!! to chorando aqui socorro :'(`,
   (n: string) => `GENTE ${n}!! nao acreditoooo!! que surpresaaa :D`,
   (n: string) => `${n}!! vc me fez chorar hein!!! (L) que lindoooo`,
   (n: string) => `ai ${n} para vc ta me matando de amor aqui kkkk (L)`,
   (n: string) => `SOCORRO ${n}!! to com o coração quentinho agora 💜💜`,
+  (n: string) => `${n}!!!!! nao tava esperando isso nao kkkk to passando mal (L)`,
+  (n: string) => `meu deus ${n} vc apareceu hoje de todos os dias?? to derretendo aqui :'D`,
+  (n: string) => `AAAAAAA ${n} para com issoooo to tremendo de emoção aqui kkkk`,
+  (n: string) => `${n} juro q fui pegar o celular normal e agora to com lagrima no olho kkkkk (L)`,
+  (n: string) => `ai ${n}!! vc lembrou de mimm?? to morrendo de amor aqui 💜💜💜`,
+  (n: string) => `MENTIRA ${n} vc e real?? que pessoa incrivel do senhor kkkkkk (L)(L)`,
 ]
 
 const RUTH_RESPONSES_2 = [
   () => `nossa eu tô de aniversário e vc ainda me faz chorar kkkkkk :'(`,
   () => `olha hoje ta sendo o melhor dia da minha vida por causa de vc!! :D`,
   () => `nao tem ninguem como vc no mundo inteiro sabia?? (L)(L)`,
-  () => `to aqui passando mal de tanto amor kkkkkk dmsss!!`,
+  () => `to aqui passando mal de tanto amor!!`,
   () => `vc e as melhores lembranças da minha vida ne?? 8-) com certeza`,
   () => `meu deus do ceu que recado lindo!! guardei no favoritos hahaha`,
+  () => `kkkkkk to rindo e chorando ao msm tempo isso e seu culpa saiba`,
+  () => `juro q hoje ja e o melhor aniversario que eu tive na vida toda kkkkk`,
+  () => `nossa vc me conhece mto bem ne?? da pra ver kkkk (L)(L)`,
+  () => `ai minha vida faz sentido quando aparece gente como vc 💜 sério`,
+  () => `kkkkkk to aqui igual doida sorrindo pra tela do pc por sua culpa`,
+  () => `to salvando esse recado pra mostrar pra minha mae kkkkk q orgulho`,
+  () => `vc faz parte das melhores historias da minha vida sabia?? (L)`,
+  () => `hahaha to com vergonha de tanta coisa boa que vc falou kkkk mas obg 💜`,
 ]
 
 const USER_RESPONSES = [
@@ -66,6 +79,16 @@ const USER_RESPONSES = [
   (n: string) => `kkkkk fica assim nao ${n}!! mas e verdade!! vc e especial dms (K)`,
   (n: string) => `${n} nao chora senao eu choro tbm kkkk mas e verdade!! te amo mto!!`,
   (n: string) => `hahaha ${n} vc e o maximo!! celebra mto hoje tá?? (F)(F)`,
+  (n: string) => `${n} to falando serio hein!! vc merece o mundo inteiro!! (L)`,
+  (n: string) => `kkkkkk ${n} olha o que vc me faz!! to aqui igual palhaço sorrindo`,
+  (n: string) => `NAO ${n} para!! agora eu que to chorando aqui kkkkk (K)(K)`,
+  (n: string) => `${n} vc e uma das pessoas mais especiais que eu ja conheci!! verdade!!`,
+  (n: string) => `hahaha ${n} fica feliz hoje tá?? vc merece DEMAIS!! :D :D :D`,
+  (n: string) => `${n} to com saudade agora por sua culpa kkkkkk (L) vdd!!`,
+  (n: string) => `kkkkk ${n} voce e insuportavel de tao perfeita sabia?? (K)`,
+  (n: string) => `${n} juro to com o coração quentinho aqui!! obg por existir!! 💜`,
+  (n: string) => `KKKKKK ${n} agora eu que fui me emocionar!! para com isso!! (L)(L)`,
+  (n: string) => `${n} vc ilumina qualquer lugar que entra!! isso nao e elogio e fato!! :D`,
 ]
 
 const RUTH_RESPONSES_3 = [
@@ -75,6 +98,12 @@ const RUTH_RESPONSES_3 = [
   (n: string) => `kkkkkk ${n} agr to sorrindo igual doida aqui!! obg bb (L)(K)`,
   (n: string) => `${n} mto obg mesmo!! vc e um anjo!! (L) saudade ENORME!!`,
   (n: string) => `aaaaa ${n}!! hoje e o melhor aniversario por causa de vc!! obg 💜`,
+  (n: string) => `${n} guarda esse dia na memoria tá?? eu nunca vou esquecer!! (L)(L)`,
+  (n: string) => `kkkkkk ${n} to daqui a pouco ligando pra vc de tanto amor que to sentindo`,
+  (n: string) => `${n} q bom q vc existe!! o mundo e melhor com vc nele!! (L) verdade!!`,
+  (n: string) => `aaaaa ${n} vc me deixou sem palavras!! so consigo mandar (L)(L)(L)(L)`,
+  (n: string) => `${n} juro q vou lembrar disso todo ano no meu aniversario!! obg 💜💜`,
+  (n: string) => `KKKKKK ${n} vc e insuportavel de gente boa!! te amo dms!! (K)(L)`,
 ]
 
 function randomPick<T>(arr: T[]): T {
